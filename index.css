@@ -6,7 +6,7 @@ body {
 #toy-header {
   display: flex;
   justify-content: center;
-  background: #515DA2;
+  background:  #d15d1b;
   opacity: .8;
   height: 7rem;
   padding: 1rem;
@@ -29,7 +29,7 @@ body {
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
+  box-shadow: 3px 4px #d15d1b
 }
 
 .toy-avatar {
@@ -40,7 +40,7 @@ body {
 
 button {
   position: relative;
-  background-color: #e04b52;
+  background-color:  #d15d1b;
   border: none;
   border-radius: 5px;
   height: 3rem;
@@ -52,8 +52,8 @@ button {
 
 button:hover {
   background-color: whitesmoke;
-  border: #e04b52 solid 1px;
-  color: #e04b52;
+  border: black solid 1px;
+  color: black;
 }
 
 .container {
@@ -71,7 +71,7 @@ button:hover {
 
 .submit {
   position: relative;
-  background-color: #e04b52;
+  background-color: #d15d1b;
   border-radius: 5px;
   height: 2rem;
   width: max-content;
@@ -84,8 +84,8 @@ button:hover {
 
 .submit:hover {
   background-color: whitesmoke;
-  border: #e04b52 solid 1px;
-  color: #e04b52;
+  border: black solid 1px;
+  color: black;
 }
 
 
