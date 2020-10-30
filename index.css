@@ -40,10 +40,10 @@ body {
 
 button {
   position: relative;
-  background-color:  #d15d1b;
+  background-color:  black;
   border: none;
-  border-radius: 5px;
-  height: 3rem;
+  border-radius: 15px;
+  height: 2rem;
   width: max-content;
   color: whitesmoke;
   font-size: 18px;
@@ -61,7 +61,7 @@ button:hover {
   width: stretch;
   height: auto;
   display: none;
-  background: #515DA2;
+  background: #d15d1b;
   opacity: .8;
 }
 

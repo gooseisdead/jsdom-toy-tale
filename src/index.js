@@ -28,11 +28,12 @@ function createToyCard(toy) {
   const toyDiv = document.createElement("div")
   toyDiv.classList.add("card")
   toyDiv.setAttribute("toy-id", toy.id)
+  toyDiv.style.color = "orange"
   toyDiv.innerHTML = 
     `<h2>${toy.name}</h2>
     <img src="${toy.image}" class="toy-avatar">
-    <p class="likes-count">${toy.likes} likes</p>
-    <button class="like-btn">❤️</button>`
+    <p class="likes-count">${toy.likes} people like this costume.</p>
+    <button class="like-btn">👻 Spooky!</button>`
   toyCollection.append(toyDiv)
     
   const likeButton = toyDiv.querySelector("button.like-btn")
@@ -53,7 +54,8 @@ function createToyCard(toy) {
           .then(function(response){
             return response.json()
           }).then(function(data){
-            toyDiv.querySelector("p.likes-count").textContent = `${toy.likes} likes`
+            toyDiv.querySelector("p.likes-count").textContent = `${toy.likes} people like this costume.`
+            toyDiv.style.color = "orange"
           }) .catch(function(error) {
             alert(error.message)
           })

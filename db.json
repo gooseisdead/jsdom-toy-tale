@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Woody",
       "image": "https://images-na.ssl-images-amazon.com/images/I/717F-Kkf0rL._AC_UX679_.jpg",
-      "likes": 23
+      "likes": 26
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "https://images-na.ssl-images-amazon.com/images/I/713sQG5KV2L._AC_UX385_.jpg",
-      "likes": 17
+      "likes": 29
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://b3h2.scene7.com/is/image/BedBathandBeyond/32412265387096m?$690$&wid=690&hei=690",
-      "likes": 3
+      "likes": 6
     },
     {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://cdn.shopify.com/s/files/1/0026/9814/9939/products/590c86fc518c0034c0f3f9b798b2c882_400x.jpg?v=1572390784",
-      "likes": 7
+      "likes": 10
     },
     {
       "id": 5,
